@@ -1,0 +1,2 @@
+virtualenv==20.7.2
+nltk=3.8.1
