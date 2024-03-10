@@ -16,7 +16,7 @@ Certifique-se de que o arquivo `requirements.txt` está presente no diretório o
 1. Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone [https://github.com/seuusuario/seuprojeto.git](https://github.com/ViniciusAndBar/Atv-PP1.4-PLN)
+git clone (https://github.com/ViniciusAndBar/Atv-PP1.4-PLN)
 ```
 
 2. Navegue até o diretório do projeto:
