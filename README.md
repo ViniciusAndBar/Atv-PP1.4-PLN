@@ -1,5 +1,5 @@
 # Atv-PP1.4
-# Processamento de Linguagem Natural (PLN) com NLTK
+# Processamento de Linguagem Natural (PLN) - Stematização e Lematização
 
 Este é um exemplo simples de processamento de linguagem natural (PLN) utilizando a biblioteca NLTK (Natural Language Toolkit) em Python. O código realiza tokenização, stemming e lematização de texto em inglês.
 
