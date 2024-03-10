@@ -1,23 +1,47 @@
 # Atv-PP1.4
-Projeto de Processamento de Linguagem Natural (PLN) com NLTK
-Este projeto tem como objetivo demonstrar o uso da biblioteca NLTK (Natural Language Toolkit) para realizar o processamento de linguagem natural. O código fornecido realiza a tokenização de um texto em inglês, exemplificando a tokenização por sentenças, tokenização por palavras e etiquetagem de partes do discurso (POS tagging).
+# Processamento de Linguagem Natural (PLN) com NLTK
 
---> Certifique-se de ter o python instalado antes de prosseguir.
+Este é um exemplo simples de processamento de linguagem natural (PLN) utilizando a biblioteca NLTK (Natural Language Toolkit) em Python. O código realiza tokenização, stemming e lematização de texto em inglês.
 
-Como Utilizar
-Clonagem do Repositório: Utilize o comando abaixo para clonar o repositório do projeto.
+## Requisitos
 
-git clone https://github.com/taissalomao/atv_pln.git
-Instalação das Dependências: Dentro da pasta clonada, utilize o comando abaixo para instalar as dependências listadas no arquivo requirements.txt.
+Certifique-se de ter Python instalado em seu sistema. Você também precisará instalar as dependências listadas no arquivo `requirements.txt`. Você pode instalar as dependências executando o seguinte comando:
 
+```bash
 pip install -r requirements.txt
-Execução do Código: Execute o script tokenizacao_in.py para realizar o processamento de linguagem natural utilizando a biblioteca NLTK. Certifique-se de que o arquivo de texto (texto.txt ou outro de sua escolha) está no mesmo diretório do script.
+```
 
-python tokenizacao_in.py
-Arquivos do Projeto
+Certifique-se de que o arquivo `requirements.txt` está presente no diretório onde você está executando o comando.
 
-tokenizacao_in.py: Script principal que realiza o processamento de linguagem natural utilizando a biblioteca NLTK.
+## Executando o código
 
-requirements.txt: Arquivo que lista as dependências do projeto. Use para instalar as bibliotecas necessárias.
+1. Clone o repositório para o seu ambiente local:
 
-texto.txt: Arquivo onde o texto que será processado está, pode ser substituido por outro qualquer, desde que, se o nome do arquivo for alterado, ele também deve ser alterado no código em "tokenizacao_in.py".
+```bash
+git clone https://github.com/seuusuario/seuprojeto.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd seuprojeto
+```
+
+3. Execute o script Python:
+
+```bash
+python processamento_texto.py
+```
+
+Isso executará o script e você verá os resultados da tokenização, stemming e lematização para os textos de exemplo fornecidos no console.
+
+## Detalhes do código
+
+- O código fonte está contido no arquivo `processamento_texto.py`.
+- Ele utiliza a biblioteca NLTK para realizar o processamento de linguagem natural.
+- O texto de exemplo está definido no próprio código, mas você pode substituí-lo por seus próprios textos.
+
+## Contribuição
+
+Se você encontrar problemas ou melhorias para este exemplo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
