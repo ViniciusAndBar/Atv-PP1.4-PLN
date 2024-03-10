@@ -33,20 +33,21 @@ Isso executará o script e você verá os resultados da tokenização, stemming 
 
 ```bash
 git clone https://github.com/rodrigoribeiro027/ExercicioLinguagemNatural
-
+```
 Abra sua IDE e crie o ambiente virtual Python:
 ```bash
 python3 -m venv env
-
+```
 Entre no diretório e ative o ambiente virtual:
 ```bash
 cd env\Scripts activate
-
+```
 Volte ao diretório do programa e Atualize o pip::
 ```bash
 python -m pip install --upgrade pip
-
+```
 Execute o seguinte comando para instalar as dependências necessárias e Execute o seguinte comando para rodar a aplicação::
 ```bash
 pip install -r requirements.txt
 python exercicio.py
+```
