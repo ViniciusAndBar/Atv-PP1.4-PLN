@@ -19,13 +19,7 @@ Certifique-se de que o arquivo `requirements.txt` está presente no diretório o
 git clone https://github.com/ViniciusAndBar/Atv-PP1.4-PLN
 ```
 
-2. Navegue até o diretório do projeto:
-
-```bash
-cd seuprojeto
-```
-
-3. Execute o script Python:
+2. Execute o script Python:
 
 ```bash
 python processamento_texto.py
