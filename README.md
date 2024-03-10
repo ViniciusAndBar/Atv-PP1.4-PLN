@@ -27,13 +27,26 @@ python os-dois-juntos.py
 
 Isso executará o script e você verá os resultados da tokenização, stemming e lematização para os textos de exemplo fornecidos no console.
 
-## Detalhes do código
+## Outro jeito de rodar
 
-- O código fonte está contido no arquivo `processamento_texto.py`.
-- Ele utiliza a biblioteca NLTK para realizar o processamento de linguagem natural.
-- O texto de exemplo está definido no próprio código, mas você pode substituí-lo por seus próprios textos.
+1. Crie uma pasta e realize um clone do repositório:
 
-## Contribuição
+```bash
+git clone https://github.com/rodrigoribeiro027/ExercicioLinguagemNatural
 
-Se você encontrar problemas ou melhorias para este exemplo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Abra sua IDE e crie o ambiente virtual Python:
+```bash
+python3 -m venv env
 
+Entre no diretório e ative o ambiente virtual:
+```bash
+cd env\Scripts activate
+
+Volte ao diretório do programa e Atualize o pip::
+```bash
+python -m pip install --upgrade pip
+
+Execute o seguinte comando para instalar as dependências necessárias e Execute o seguinte comando para rodar a aplicação::
+```bash
+pip install -r requirements.txt
+python exercicio.py
