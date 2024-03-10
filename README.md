@@ -22,7 +22,7 @@ git clone https://github.com/ViniciusAndBar/Atv-PP1.4-PLN
 2. Execute o script Python:
 
 ```bash
-python processamento_texto.py
+python os-dois-juntos.py
 ```
 
 Isso executará o script e você verá os resultados da tokenização, stemming e lematização para os textos de exemplo fornecidos no console.
